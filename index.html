@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="CalendarStyle.css">
+</head>
+<body>
+    <div class="CalendarDynamic">
+        <h1>Calendar</h1>
+        <div class="CalNav">
+            <button onclick="previous()">⇦</button>
+            <span id="currentMonth"></span>
+            <button onclick="next()">⇨</button>
+        </div>
+        <table id="Calendar">
+            <thead>
+                <tr>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>T</th>
+                    <th>W</th>
+                    <th>T</th>
+                    <th>F</th>
+                    <th>S</th>
+                </tr>
+            </thead>
+            <tbody id="calendarBody">
+                <!-- done in js -->
+            </tbody>
+        </table>
+    </div>
+    <script src="CalendarScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    background: rgb(111,141,211);
+    background: linear-gradient(90deg, rgba(111,141,211,0.6559873949579832) 0%, rgba(185,106,208,0.6783963585434174) 100%);
+    font-family: "Courier", Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.CalendarDynamic {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #000000;
+}
+
+.CalNav button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CalNav button:hover {
+    background-color: #e0e0e0;
+}
+
+#Calendar {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#Calendar th, #Calendar td {
+    padding: 15px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+#Calendar th {
+    background-color: #eee;
+}
+
+#Calendar td {
+    background-color: #fdfdfd;
+}
+
+#Calendar td.booked {
+    background-color: #808080;
+}
+#Calendar td:hover{
+  background-color: #C0C0C0;
+}
